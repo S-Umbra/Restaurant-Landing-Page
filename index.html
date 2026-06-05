@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sal & Olivo — Restaurante</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" async></script>
+<style>
+  
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="logo">Sal <span>&</span> Olivo</a>
+  <ul class="nav-links">
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#menu">Menú</a></li>
+    <li><a href="#espacio">Espacio</a></li>
+    <li><a href="#reserva" class="nav-cta">Reservar</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-ornament"></div>
+  <div class="hero-content">
+    <span class="hero-eyebrow">Murcia · Cocina Mediterránea</span>
+    <h1 class="hero-title">
+      Donde el sabor<br>
+      <em>cuenta historias</em>
+    </h1>
+    <p class="hero-sub">Producto local · Temporada · Tradición renovada</p>
+    <div class="hero-actions">
+      <a href="#menu" class="btn-primary">Ver el menú</a>
+      <a href="#reserva" class="btn-ghost">Reservar mesa</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Descubrir</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="intro" id="nosotros">
+  <div class="intro-visual">
+    <div class="intro-img-frame">
+      <div class="img-placeholder-text">
+        <span class="food-icon">🫒</span>
+      </div>
+    </div>
+    <div class="intro-img-border"></div>
+    <div class="intro-tag">Desde 1998 en el corazón de Murcia</div>
+  </div>
+  <div class="intro-copy">
+    <span class="section-label">Nuestra historia</span>
+    <h2 class="intro-title">
+      Raíces en la huerta,<br>
+      <em>alma en el fogón</em>
+    </h2>
+    <p class="intro-text">
+      Sal &amp; Olivo nació del amor por la despensa murciana: su pimentón, sus verduras de regadío, el arroz del Segura. Cada plato es un diálogo entre la memoria familiar y la técnica contemporánea.
+    </p>
+    <p class="intro-text">
+      Trabajamos con productores locales de confianza para que cada ingrediente llegue al plato en su mejor momento. Sin atajos. Sin artificios. Solo producto honesto y manos que respetan su origen.
+    </p>
+    <div class="stat-row">
+      <div class="stat-item">
+        <span class="stat-num">26</span>
+        <span class="stat-label">Años de historia</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">18</span>
+        <span class="stat-label">Proveedores locales</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">4</span>
+        <span class="stat-label">Soles Repsol</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu-section" id="menu">
+  <div class="section-header">
+    <span class="section-label">Lo que cocinamos</span>
+    <h2 class="section-title">Carta de temporada</h2>
+    <div class="section-divider">
+      <div class="divider-line"></div>
+      <span class="divider-icon">✦</span>
+      <div class="divider-line"></div>
+    </div>
+  </div>
+
+  <div class="menu-tabs" id="menuTabs">
+    <button class="menu-tab active" data-tab="entrantes">Entrantes</button>
+    <button class="menu-tab" data-tab="principales">Principales</button>
+    <button class="menu-tab" data-tab="postres">Postres</button>
+  </div>
+
+  <div class="menu-grid" id="menuGrid">
+    <!-- se llena con JS -->
+  </div>
+</section>
+
+<!-- AMBIANCE -->
+<section class="ambiance" id="espacio">
+  <div class="ambiance-gallery">
+    <div class="gallery-item">🕯️</div>
+    <div class="gallery-item">🌿</div>
+    <div class="gallery-item">🍷</div>
+  </div>
+  <div class="ambiance-content">
+    <span class="section-label">El espacio</span>
+    <h2 class="intro-title">
+      Un rincón donde<br>
+      <em>el tiempo se detiene</em>
+    </h2>
+    <p class="intro-text">
+      Nuestro comedor de piedra y madera, con vistas al jardín interior, crea el ambiente perfecto para celebraciones íntimas o encuentros de empresa. Luz natural de día, velas por la noche.
+    </p>
+    <ul class="features-list">
+      <li><span class="feature-dot"></span>Capacidad para 60 comensales</li>
+      <li><span class="feature-dot"></span>Sala privada para eventos (hasta 18 personas)</li>
+      <li><span class="feature-dot"></span>Terraza con jardín mediterráneo</li>
+      <li><span class="feature-dot"></span>Bodega con más de 200 referencias</li>
+      <li><span class="feature-dot"></span>Acceso adaptado para personas con movilidad reducida</li>
+    </ul>
+    <a href="#reserva" class="btn-primary">Reservar mesa</a>
+  </div>
+</section>
+
+<!-- RESERVATION -->
+<section class="reservation" id="reserva">
+  <span class="section-label">Reservas</span>
+  <h2 class="reservation-title">
+    Tu mesa te<br><em>está esperando</em>
+  </h2>
+  <p class="reservation-sub">Martes a domingo · Almuerzo 13:30–15:30 · Cena 20:30–23:00</p>
+
+  <div class="reservation-form">
+    <div class="form-field">
+      <label class="form-label">Fecha</label>
+      <input class="form-input" type="date">
+    </div>
+    <div class="form-field">
+      <label class="form-label">Hora</label>
+      <input class="form-input" type="time" value="21:00">
+    </div>
+    <div class="form-field">
+      <label class="form-label">Personas</label>
+      <input class="form-input" type="number" min="1" max="20" placeholder="2">
+    </div>
+    <div class="form-field">
+      <label class="form-label">Nombre</label>
+      <input class="form-input" type="text" placeholder="Tu nombre">
+    </div>
+    <button class="form-submit">Reservar</button>
+  </div>
+  <p class="reservation-note">También por teléfono: +34 968 000 000 · reservas@ysolivo.es</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">
+    <a href="#" class="logo">Sal <span>&</span> Olivo</a>
+    <p class="footer-desc">Cocina mediterránea de autor en el corazón de Murcia. Producto local, tradición y creatividad en cada plato.</p>
+    <div class="social-links">
+      <a href="#" class="social-link">ig</a>
+      <a href="#" class="social-link">fb</a>
+      <a href="#" class="social-link">tw</a>
+    </div>
+  </div>
+  <div class="footer-col">
+    <h4>Horarios</h4>
+    <ul>
+      <li><a href="#">Mar–Vie: 13:30–16:00</a></li>
+      <li><a href="#">Mar–Sáb: 20:30–23:30</a></li>
+      <li><a href="#">Sáb–Dom: 13:30–16:30</a></li>
+      <li><a href="#">Lunes: Cerrado</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Menú</h4>
+    <ul>
+      <li><a href="#">Carta del día</a></li>
+      <li><a href="#">Menú degustación</a></li>
+      <li><a href="#">Menú ejecutivo</a></li>
+      <li><a href="#">Carta de vinos</a></li>
+    </ul>
+  </div>
+  <div class="footer-col">
+    <h4>Contacto</h4>
+    <ul>
+      <li><a href="#">C/ Gran Vía, 24 · Murcia</a></li>
+      <li><a href="#">+34 968 000 000</a></li>
+      <li><a href="#">reservas@salyolivo.es</a></li>
+      <li><a href="#">Cómo llegar</a></li>
+    </ul>
+  </div>
+</footer>
+
+<div class="footer-bottom">
+  <p>© 2024 Sal &amp; Olivo · Todos los derechos reservados</p>
+  <p>Diseño con ♥ · Murcia, España</p>
+</div>
+
+
+</body>
+</html>
