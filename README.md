@@ -29,11 +29,6 @@ style.css
 script.js
 ```
 
-## Author
-
-Said Boushaba
-
-GitHub: https://github.com/S-Umbra
 ## Screenshot
 
 ![Restaurant Landing Page](assets/image/image.png)
@@ -42,4 +37,4 @@ GitHub: https://github.com/S-Umbra
 
 Said Boushaba
 
-GitHub: https://github.com/S-Umbra
+GitHub: https://github.com/SaidBoushabaRahmouni
