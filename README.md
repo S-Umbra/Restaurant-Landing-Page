@@ -36,4 +36,4 @@ Said Boushaba
 GitHub: https://github.com/S-Umbra
 ## Screenshot
 
-![Restaurant Landing Page](assets/images/image.png)
+![Restaurant Landing Page](assets/image/image.png)
