@@ -37,3 +37,9 @@ GitHub: https://github.com/S-Umbra
 ## Screenshot
 
 ![Restaurant Landing Page](assets/image/image.png)
+
+## Author
+
+Said Boushaba
+
+GitHub: https://github.com/S-Umbra
